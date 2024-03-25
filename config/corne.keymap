@@ -10,36 +10,6 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-    macros {
-        ctrl_left: ctrl_left {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp LEFT>;
-            label = "CTRL_LEFT";
-        };
-
-        ctrl_right: ctrl_right {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp RIGHT>;
-            label = "CTRL_RIGHT";
-        };
-
-        ctrl_up: ctrl_up {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp UP>;
-            label = "CTRL_UP";
-        };
-
-        ctrl_down: ctrl_down {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp DOWN>;
-            label = "CTRL_DOWN";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -81,9 +51,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans        &trans        &trans          &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_VOL_DN  &kp C_VOL_UP  &trans
-&out OUT_TOG  &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT        &kp DOWN          &kp UP      &kp RIGHT     &trans        &trans
-&trans        &trans                &trans                &trans        &trans        &trans          &ctrl_left      &ctrl_down        &ctrl_up    &ctrl_right   &trans        &bt BT_CLR
+&kp ESCAPE    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans        &trans        &trans          &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT        &kp C_VOL_DN   &kp C_VOL_UP  &trans
+&out OUT_TOG  &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT        &kp DOWN          &kp UP            &kp RIGHT      &trans        &trans
+&trans        &trans                &trans                &trans        &trans        &trans          &kp LC(LEFT)    &kp LC(DOWN)      &kp LC(UP_ARROW)  &kp LC(RIGHT)  &trans        &bt BT_CLR
                                                           &trans        &kp LEFT_ALT  &trans          &trans          &kp UNDER         &trans
             >;
         };
