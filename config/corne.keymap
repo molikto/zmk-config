@@ -16,6 +16,7 @@
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <0 12>;
+            layers = <0>;
         };
     };
 
