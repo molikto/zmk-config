@@ -65,6 +65,16 @@
             key-positions = <32 31>;
             layers = <0>;
         };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <2 1>;
+        };
+
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <13 14>;
+        };
     };
 
     behaviors {
