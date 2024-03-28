@@ -30,6 +30,41 @@
             key-positions = <7 8>;
             layers = <0>;
         };
+
+        leftp {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <6 7>;
+            layers = <0>;
+        };
+
+        rightp {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <8 9>;
+            layers = <0>;
+        };
+
+        leftb {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <18 19>;
+        };
+
+        rightb {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <20 21>;
+            layers = <0>;
+        };
+
+        leftr {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <30 31>;
+            layers = <0>;
+        };
+
+        rightr {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <32 33>;
+            layers = <0>;
+        };
     };
 
     behaviors {
