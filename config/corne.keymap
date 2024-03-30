@@ -19,8 +19,8 @@
             layers = <2>;
         };
 
-        underscore {
-            bindings = <&kp UNDER>;
+        equals {
+            bindings = <&kp EQUAL>;
             key-positions = <20 21>;
             layers = <0>;
         };
@@ -74,6 +74,12 @@
         grave {
             bindings = <&kp GRAVE>;
             key-positions = <13 14>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <33 32>;
+            layers = <0>;
         };
     };
 
