@@ -19,7 +19,6 @@
             layers = <2>;
         };
 
-
         leftr {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <30 31>;
@@ -31,6 +30,7 @@
             key-positions = <32 31>;
             layers = <0>;
         };
+
         leftp {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <18 19>;
@@ -61,7 +61,7 @@
         };
 
         equals {
-            bindings = <&kp EQUAL>;
+            bindings = <&kp UNDER>;
             key-positions = <20 21>;
             layers = <0>;
         };
@@ -74,14 +74,13 @@
 
         tilde {
             bindings = <&kp TILDE>;
-            key-positions = <2 1>;
+            key-positions = <1 0>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
-            key-positions = <13 14>;
+            key-positions = <13 12>;
         };
-
     };
 
     behaviors {
