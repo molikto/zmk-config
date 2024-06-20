@@ -103,7 +103,7 @@
             bindings = <
 &kp TAB                &kp Q  &kp W  &kp E             &kp R        &kp T           &kp Y      &kp U                   &kp I      &kp O    &kp P     &kp BSPC
 &mt LEFT_SHIFT ESCAPE  &kp A  &kp S  &kp D             &kp F        &kp G           &kp H      &kp J                   &kp K      &kp L    &kp SEMI  &kp SQT
-&kp BACKSLASH          &kp Z  &kp X  &kp C             &kp V        &kp B           &kp N      &kp M                   &kp COMMA  &kp DOT  &kp FSLH  &kp UNDER
+&kp LCTRL              &kp Z  &kp X  &kp C             &kp V        &kp B           &kp N      &kp M                   &kp COMMA  &kp DOT  &kp FSLH  &kp UNDER
                                      &kp LEFT_COMMAND  &lt 1 ENTER  &kp LEFT_ALT    &kp RCTRL  &space_layer_1 1 SPACE  &mo 2
             >;
         };
@@ -116,10 +116,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT      &kp CARET     &kp AMPERSAND  &kp STAR      &none      &none   &trans
-&kp GRAVE  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5           &kp NUMBER_6  &kp N7         &kp N8        &kp N9     &kp N0  &trans
-&trans     &none            &none         &none         &kp PIPE      &kp BACKSLASH    &kp LEFT      &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans  &trans
-                                          &trans        &trans        &trans           &trans        &trans         &trans
+&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT    &kp CARET     &kp AMPERSAND  &kp STAR      &kp PIPE   &kp BACKSLASH  &trans
+&kp GRAVE  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5         &kp NUMBER_6  &kp N7         &kp N8        &kp N9     &kp N0         &trans
+&trans     &none            &none         &none         &none         &none          &kp LEFT      &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans         &trans
+                                          &trans        &trans        &trans         &trans        &trans         &trans
             >;
         };
 
