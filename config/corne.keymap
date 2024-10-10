@@ -21,7 +21,7 @@
 
         grave {
             bindings = <&kp GRAVE>;
-            key-positions = <1 2>;
+            key-positions = <13 14>;
             layers = <0 1>;
         };
 
