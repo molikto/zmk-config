@@ -15,25 +15,25 @@
 
         tilde {
             bindings = <&kp TILDE>;
-            key-positions = <1 2>;
+            key-positions = <2 3>;
             layers = <0 1>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
-            key-positions = <13 14>;
+            key-positions = <1 2>;
             layers = <0 1>;
         };
 
         ampersand {
             bindings = <&kp AMPERSAND>;
-            key-positions = <4 5>;
+            key-positions = <4 3>;
             layers = <0 1>;
         };
 
         caret {
             bindings = <&kp CARET>;
-            key-positions = <16 17>;
+            key-positions = <14 15>;
             layers = <0 1>;
         };
 
@@ -93,7 +93,7 @@
 
         pipe {
             bindings = <&kp PIPE>;
-            key-positions = <10 9>;
+            key-positions = <15 16>;
             layers = <0 1>;
         };
 
@@ -105,7 +105,7 @@
 
         backslash {
             bindings = <&kp BACKSLASH>;
-            key-positions = <33 34>;
+            key-positions = <9 10>;
             layers = <0 1>;
         };
 
