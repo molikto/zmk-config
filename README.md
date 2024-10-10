@@ -1,6 +1,8 @@
 
 [view image](https://keymap-drawer.streamlit.app/?zmk_url=https%3A%2F%2Fgithub.com%2Fmolikto%2Fzmk-config%2Fblob%2Fmaster%2Fconfig%2Fcorne.keymap)
 
+* don't have duplicated key bindings, it's too confusing
+
 * letter keys area are not changed
 * control keys mostly are not changed too much relative to default layout
   * enter is at left thumb, much better
