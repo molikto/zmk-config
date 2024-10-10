@@ -15,13 +15,13 @@
 
         tilde {
             bindings = <&kp TILDE>;
-            key-positions = <1 0>;
+            key-positions = <1 2>;
             layers = <0 1>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
-            key-positions = <13 12>;
+            key-positions = <13 14>;
             layers = <0 1>;
         };
 
