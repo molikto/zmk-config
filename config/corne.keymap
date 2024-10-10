@@ -13,54 +13,6 @@
     combos {
         compatible = "zmk,combos";
 
-        leftr {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <30 31>;
-            layers = <0 1>;
-        };
-
-        rightr {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <32 31>;
-            layers = <0 1>;
-        };
-
-        leftp {
-            bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <18 19>;
-            layers = <0 1>;
-        };
-
-        rightp {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <19 20>;
-            layers = <0 1>;
-        };
-
-        leftb {
-            bindings = <&kp LEFT_BRACE>;
-            key-positions = <6 7>;
-            layers = <0 1>;
-        };
-
-        rightb {
-            bindings = <&kp RIGHT_BRACE>;
-            key-positions = <8 7>;
-            layers = <0 1>;
-        };
-
-        minus {
-            bindings = <&kp MINUS>;
-            key-positions = <32 33>;
-            layers = <0 1>;
-        };
-
-        equals {
-            bindings = <&kp EQUAL>;
-            key-positions = <20 21>;
-            layers = <0 1>;
-        };
-
         tilde {
             bindings = <&kp TILDE>;
             key-positions = <1 0>;
@@ -70,18 +22,6 @@
         grave {
             bindings = <&kp GRAVE>;
             key-positions = <13 12>;
-            layers = <0 1>;
-        };
-
-        plus {
-            bindings = <&kp PLUS>;
-            key-positions = <8 9>;
-            layers = <0 1>;
-        };
-
-        multiply {
-            bindings = <&kp ASTERISK>;
-            key-positions = <21 22>;
             layers = <0 1>;
         };
 
@@ -97,9 +37,57 @@
             layers = <0 1>;
         };
 
-        backslash {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <33 34>;
+        leftb {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <6 7>;
+            layers = <0 1>;
+        };
+
+        rightb {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <8 7>;
+            layers = <0 1>;
+        };
+
+        leftp {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <18 19>;
+            layers = <0 1>;
+        };
+
+        rightp {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <19 20>;
+            layers = <0 1>;
+        };
+
+        leftr {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <30 31>;
+            layers = <0 1>;
+        };
+
+        rightr {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <32 31>;
+            layers = <0 1>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <8 9>;
+            layers = <0 1>;
+        };
+
+        equals {
+            bindings = <&kp EQUAL>;
+            key-positions = <20 21>;
+            layers = <0 1>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <32 33>;
             layers = <0 1>;
         };
 
@@ -109,12 +97,24 @@
             layers = <0 1>;
         };
 
-        page_up {
+        multiply {
+            bindings = <&kp ASTERISK>;
+            key-positions = <21 22>;
+            layers = <0 1>;
+        };
+
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <33 34>;
+            layers = <0 1>;
+        };
+
+        pageup {
             bindings = <&kp PAGE_UP>;
             key-positions = <20 8>;
         };
 
-        page_down {
+        pagedown {
             bindings = <&kp PAGE_DOWN>;
             key-positions = <7 19>;
         };
