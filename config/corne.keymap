@@ -112,11 +112,13 @@
         pageup {
             bindings = <&kp PAGE_UP>;
             key-positions = <20 8>;
+            layers = <0 1>;
         };
 
         pagedown {
             bindings = <&kp PAGE_DOWN>;
             key-positions = <7 19>;
+            layers = <0 1>;
         };
     };
 
