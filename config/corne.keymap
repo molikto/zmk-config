@@ -27,7 +27,7 @@
 
         ampersand {
             bindings = <&kp AMPERSAND>;
-            key-positions = <4 3>;
+            key-positions = <15 16>;
             layers = <0 1>;
         };
 
@@ -93,7 +93,7 @@
 
         pipe {
             bindings = <&kp PIPE>;
-            key-positions = <15 16>;
+            key-positions = <3 4>;
             layers = <0 1>;
         };
 
