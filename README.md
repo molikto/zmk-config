@@ -11,7 +11,9 @@
 * brackets, right side of num-shift keys, and the key left to 1 are combo
   * they are frequently used, and combo is easier to reach compared to 
   * except for underscore, it's a standalone key, that place is hard to reach anyway, so at same priority like a combo
-* num keys are at symbols layer home row, and also all number related keys works in that layer (trans keys and combos)
+* num keys are at symbols layer home row
+  * all number related keys works in that layer as trans keys or combo
+  * arrow keys also work in this layer, so you don't need to switch layer
   * left side of num-shift keys are at top row of symbols layer
 * arrow keys are right side top of symbols layer
   * allows moving cursor in number mode
