@@ -6,8 +6,9 @@
 * letter keys area are not changed
 * control keys mostly are not changed too much relative to default layout
   * enter is at left thumb, much better
-  * alt changed position relative to command, but this key isn't used much
   * escape and shift is same key, it works great
+  * backspace are still in top right corner, you want to use it will in symbol layer, so not in thumb positions
+  * alt changed position relative to command, but this key isn't used much
 * brackets, right side of num-shift keys, and the key left to 1 are combo
   * they are frequently used, and combo is easier to reach compared to 
   * except for underscore, it's a standalone key, that place is hard to reach anyway, so at same priority like a combo
