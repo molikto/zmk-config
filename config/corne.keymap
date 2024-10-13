@@ -99,13 +99,13 @@
 
         multiply {
             bindings = <&kp ASTERISK>;
-            key-positions = <21 22>;
+            key-positions = <16 17>;
             layers = <0 1>;
         };
 
         backslash {
             bindings = <&kp BACKSLASH>;
-            key-positions = <9 10>;
+            key-positions = <4 5>;
             layers = <0 1>;
         };
 
