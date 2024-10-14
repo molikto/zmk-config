@@ -11,6 +11,8 @@
   * alt changed position relative to command, but this key isn't used much
 * brackets, right side of num-shift keys, and the key left to 1 are combo
   * they are frequently used, and combo is easier to reach compared to 
+  * they are all in good to reach position, horizontal two finger combos
+  * avoid conflict with common used sequential keys, like "er" are not a combo
   * except for underscore, it's a standalone key, that place is hard to reach anyway, so at same priority like a combo
 * num keys are at symbols layer home row
   * all number related keys works in that layer as trans keys or combo
@@ -22,8 +24,3 @@
 * control layer
   * control+arrow aligns with hjkl again.
 * keyboard layer
-
-
-
-
-
